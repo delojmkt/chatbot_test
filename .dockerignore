@@ -1,0 +1,7 @@
+.vscode
+.git
+.gitignore
+.dockerignore
+Dockerfile
+*.md
+*__pycache__/
