@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
     model.compile(optimizer=optimizer, loss=loss_function, metrics=[accuracy])
 
-    EPOCHS = 3
+    EPOCHS = 30
     model.fit(dataset, epochs=EPOCHS)
 
     chat_interface = ChatInterface(model, START_TOKEN, END_TOKEN, tokenizer)
